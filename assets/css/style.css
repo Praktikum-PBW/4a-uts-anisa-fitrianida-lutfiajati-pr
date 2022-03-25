@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Navbar*/
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #d66d50;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #d66d50;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.nav-link1:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #d66d50;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.nav-link1 {
+    text-decoration: none;
+}
+
+#menu1 ul {
+    list-style: none;
+}
+
+/* Navbar End */
+
+/* Body */
+body {
+    background: url('../IMG/bg2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Banner */
+#Banner {
+    position: relative;
+    background: url('../IMG/back3.png') no-repeat center;
+    height: 700px;
+    padding-top: 250px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Banner h1 {
+    margin-top: 220px;
+    font-weight: 900;
+}
+
+/* Banner End */
+
+#about h1 {
+    font-weight: 900;
+}
+
+#about h5 {
+    font-weight: 700;
+}
+
+/* Button */
+#btn-sub {
+    width: 120px;
+
+}
+
+#btn-sub {
+    background-color: #0E7289;
+    font-weight: 500;
+    width: 200px;
+    height: 45px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    opacity: 1.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#btn-sub:hover {
+    background-color: rgb(226, 224, 115);
+    color: white;
+}
+
+#btn-sub :active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* Button End */
+
+/* Scroll To Top */
+.scrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #0E7289;
+    color: #ffffff;
+    border-radius: 25px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scrollTop:hover {
+    background-color: rgb(226, 224, 115);
+    color: white;
+}
+
+/* Scroll To Top */
+
+/* Main Content */
+#showoff h1 {
+    font-weight: 700;
+}
+
+#card-border {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#card-promo {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#card-testi {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#card-border:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    background: url('../IMG/bg2.png') 5%;
+}
+
+#card-promo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    background: url('../IMG/bg2.png') 5%;
+}
+
+#card-testi:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    background: url('../IMG/bg2.png') 5%;
+}
+
+#logovet {
+    opacity: 60%;
+}
+
+#desc {
+    margin-top: 100px;
+    text-align: justify
+}
+
+/* Main Content End */
+
+/* Footer */
+.footer {
+    background-color: #ffffff;
+}
+
+.sosmed i[class^="bi"] {
+    padding: 3px;
+    font-size: 20px;
+    color: #666;
+}
+
+.sosmed i[class^="bi"]:hover {
+    transform: scale(1.3);
+    color: #c8df74;
+}
+
+/* Footer End */
+
+/* Form*/
+#con-me h2 {
+    padding-top: 80px;
+
+}
+
+.formLabel-required {
+    color: red;
+}
+
+.login h2 {
+    font-weight: 700;
+}
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.btn-google {
+    color: white !important;
+    background-color: #ea4335 !important;
+}
+
+.btn-facebook {
+    color: white !important;
+    background-color: #3b5998 !important;
+}
+
+/* Form End */
